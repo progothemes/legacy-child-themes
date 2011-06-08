@@ -1,0 +1,26 @@
+/*
+Theme Name: Brain and Body Drops
+Theme URI: http://www.brainandbodydrops.com/
+Description: Child Theme of ProGo Themes' Direct Response, by Ninthlink, Inc.
+Author: Ninthlink, Inc.
+Author URI: http://www.ninthlink.com
+Template: direct
+Version: 1.0
+*/
+
+@import '../direct/style.css';
+
+body.page { background: #ffc412 url(images/bg.jpg) repeat-x 0 0 }
+#hdr { background-image: none; background-color: #500069 }
+table#logo { margin: 6px 21px 0 }
+#slogan { float: right; width: 138px; height: 36px; text-indent: -999em; background: url(/wp-content/uploads/2011/05/orderbyphone.png) no-repeat 0 0; margin: 19px 31px 0 }
+#arrow { background-image: url(images/arrow.jpg) !important }
+#topimg { position: relative; z-index: 100 }
+#toparr { background-image: url(images/toparrow.jpg) !important }
+.pform { background-image: url(images/form.jpg) !important; background-repeat: repeat }
+.pform input.sbtn.buynow { background-image: url(images/buynow.png); }
+.pform h3 { font-size: 24px; color: #4f0068 }
+#bodycontent img { margin-left: -15px; }
+#container { background: none !important }
+body.page #main h1.page-title { color: #4f0068 }
+#main h2 { font-size: 23px; line-height: 30px; width: 610px; margin: 0 0 10px }
