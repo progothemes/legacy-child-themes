@@ -1,0 +1,41 @@
+/*
+Theme Name: BirdRock
+Theme URI: http://www.thebirdrockmassagestudio.com/
+Description: Child Theme of ProGo Themes' Small Business Pro theme, for The Bird Rock Massage Studio, designed and developed by Ninthlink, Inc.
+Author: Ninthlink, Inc.
+Author URI: http://www.ninthlink.com
+Template: businesspro
+Version: 1.0
+*/
+
+@import '../businesspro/style.css';
+
+/* more style here */
+body { color: #333 }
+#wrap.container_12 { width: 1002px }
+#page { padding: 0 21px; background-image: url(images/paper.jpg) }
+#hdr { margin: 0 -21px; padding: 0 21px; background: url(images/ptop.jpg) no-repeat 0 0; height: 289px }
+a#logo { margin: 34px 0 0 18px; background: url(images/logo.jpg) no-repeat 0 0; width: 231px; height: 213px; text-indent: -999em }
+a#logo .g { display: none }
+ul#nav { background: none; width: 960px; left: 21px }
+ul#nav li { padding-right: 2px; background-image: url(images/navli.png) }
+ul#nav a { font-size: 15px; font-family: Georgia, "Times New Roman", Times, serif }
+ul#nav li.current-menu-item a.first, body.wpsc ul#nav li.wpsc a.first, body.blog ul#nav li.blog a.first { background-image: url(images/navon.png); font-weight: normal; color: #4c0000; }
+
+#container { background: url(images/page.png) repeat-y 0 0 }
+#main h2 { font: italic 26px/120% Georgia, "Times New Roman", Times, serif; margin-bottom: 12px }
+
+#pagetop { background-image: url(images/pagetop.jpg); color: #480000 }
+#pagetop.sliding { background: none }
+#pagetop .page-title { font: 40px/120% Georgia, "Times New Roman", Times, serif }
+#pagetop.sliding .page-title { display: none }
+
+.hform { background-image: url(images/hform.jpg); text-align: center }
+.hform .tar { font: italic 30px/38px Georgia, "Times New Roman", Times, serif; color: #4c0000; margin: 8px 0 19px }
+.hform p { margin: 10px; font-size: 14px }
+.block { background: #fff }
+.block h3.title { background-image: url(images/h3b.jpg); color: #4c0000; font: 18px/23px Georgia, "Times New Roman", Times, serif }
+
+#fbar { background: url(images/fbar.jpg) repeat 0 0 }
+#fbar .current_page_item a { font-weight: bold }
+.custombg #ftr, .custombg #ftr a { color: #000 }
