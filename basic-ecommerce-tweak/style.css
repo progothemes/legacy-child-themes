@@ -1,0 +1,14 @@
+/*
+Theme Name: Basic Ecommerce Tweak
+Theme URI: http://www.progo.com/
+Description: Child Theme of ProGo Themes' Ecommerce theme, showing an example of how to create a Child Theme, and change the color of the header area
+Author: Alex Chousmith
+Author URI: http://about.me/chousmith
+Template: ecommerce
+Version: 1.0
+*/
+
+@import '../ecommerce/style.css';
+
+/* more style here */
+#hdr { background: #ff0 }
