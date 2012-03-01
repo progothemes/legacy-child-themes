@@ -1,0 +1,29 @@
+/*
+Theme Name: ScenicCity
+Theme URI: http://www.sceniccity.com/
+Description: ScenicCity child theme of ProGo Themes' Small Business PRO theme.
+Author: Double Spurs Creative
+Author URI: http://www.doublespurs.com
+Version: 1.0
+Template: businesspro
+*/
+
+@import '../businesspro/style.css';
+
+ul#nav a { padding: 8px 25px 0; width: auto }
+ul#nav li { width: auto }
+ul#nav a:hover { font-weight: normal; text-decoration: underline }
+ul#nav li.current-menu-item a.first, body.wpsc ul#nav li.wpsc a.first, body.blog ul#nav li.blog a.first { font-weight: normal; color: #42382b !important }
+#fbar { padding: 12px 0; width: 960px }
+#fbar .fblock { width: 100% }
+#fbar .menu li { margin: 0 25px }
+#main textarea { width: 594px; height: 129px }
+#main select { width: 294px; margin:5px 0 }
+.hform .tar td { color: #fff; text-shadow: none }
+
+.hform, .secondary .hform { background: url(images/hform.png) no-repeat 0 0 }
+
+.hform .tar td { font-size: 18px; line-height: 130% }
+.hform form { margin: 33px 0 0 31px }
+.hform input.text { padding: 4px 6px; margin: 5px 0 14px; height: 15px; width: 238px }
+.hform input.sub { background: url(images/hbtn.png) no-repeat 0 0; border: none; width: 251px; height: 40px; padding: 0; line-height: 40px; text-align: center; cursor: pointer; margin: 25px 0 0 2px; color: #fff; font-size: 18px }
