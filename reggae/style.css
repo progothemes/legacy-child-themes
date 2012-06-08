@@ -1,0 +1,48 @@
+/*
+Theme Name: Reggae to the Rescue
+Theme URI: http://www.reggaetotherescue.com/
+Description: Child Theme of ProGo Themes' Small Business Pro theme, for Reggae To The Rescue, designed and developed by Ninthlink, Inc.
+Author: Ninthlink, Inc.
+Author URI: http://www.ninthlink.com
+Template: businesspro
+Version: 1.0
+*/
+
+@import '../businesspro/style.css';
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,700);
+@import url(http://fonts.googleapis.com/css?family=Changa+One);
+@import url(http://fonts.googleapis.com/css?family=Russo+One);
+
+/* more style here */
+#fx { background: none }
+#hdr { background: url(images/top.jpg) repeat-x 0 0 }
+#hdr .textwidget { font: 16px/20px "Open Sans"; color: #fff; margin: 40px 0 0 }
+
+ul#nav { background-image: url(images/nav.jpg) }
+ul#nav li { width: 131px; padding-right: 2px; background-image: url(images/navli.png) }
+ul#nav a { width: 131px; font: 13px/18px "Open Sans"; font-weight: 700; text-transform: uppercase }
+#pagetop { background-image: url(images/subpagetop.jpg) }
+#pagetop .page-title, #pagetop h2, #pagetop h3 { font: 56px/60px "Changa One"; margin: 20px 27px; text-transform: uppercase; text-shadow: 2px 2px 2px rgba(0,0,0,0.5) }
+#pagetop.grid_12.sliding { height: 482px; background: url(images/pagetop.jpg) repeat-x 0 0 }
+.Layout3 .slide { background-image: url(images/reggaetotherescue.jpg); height: 482px }
+#pagetop.sliding .page-title { font-size: 52px; line-height: 100%; font-weight: normal; margin-bottom: 0 }
+#pagetop h2 { margin: 0; font-size: 30px; line-height: 117% }
+#pagetop h3 { color: #FCF010; margin: 10px 0; font-size: 25px; line-height: 30px }
+#pagetop p a { color: #FCF010; text-decoration: underline }
+
+#main { padding-bottom: 41px }
+#main h2 { font-size: 26px; font-family: "Changa One"; margin-bottom: 10px }
+#main h3 { font-size: 16px; font-family: "Changa One" }
+#main a { color: #f00 }
+
+
+#fbar .fblock { width: 30% }
+#fbar .fblock.widget_nav_menu { width: 70% }
+
+#main input.text, #main textarea { width: 578px }
+#main textarea { height: 156px }
+#main input.wpcf7-submit { cursor: pointer; background: none; border: none; padding: 0; font-family: "Russo One"; text-transform: uppercase; font-size: 18px }
+#main .wpcf7-form { margin-bottom: 41px }
+
+.secondary .pbpform { display: none }
