@@ -1,0 +1,159 @@
+/*
+Theme Name: MyNAPWC
+Theme URI: http://www.mynapwc.org/
+Description: WP theme for MyNAPWC, based off of ProGo Themes' Small Business Pro theme
+Author: Ninthlink, Inc.
+Author URI: http://www.ninthlink.com
+Template: businesspro
+Version: 1.0
+*/
+
+@import '../businesspro/style.css';
+
+
+body {
+background: url(images/background.png) repeat-x 0 0 !important;
+background-image: url(images/background.png)!important;
+background-repeat-x: repeat;
+background-repeat-y: no-repeat;
+background-attachment: initial;
+background-position-x: 0px;
+background-position-y: 0px;
+background-origin: initial;
+background-clip: initial;
+background-color: white;
+}
+
+.line {
+display: block !important;
+width: 586px !important;
+height: 1px !important;
+background: #CCC !important;
+margin: 18px 0 !important;
+}
+.right {
+
+float:right;
+
+}
+
+.pbpform div.wpcf7-response-output {
+background: white;
+position: absolute;
+color:#000 !important;
+top: 0;
+right: 5px;
+padding: 20px;
+width: 249px;
+}
+
+ul#nav ul a {
+float: none;
+display: block;
+color: #fff !important;
+font-size: 13px;
+line-height: 16px;
+height: auto;
+padding: 6px 10px;
+width: 112px;
+text-align: left;
+}
+
+ul#nav ul a:hover {
+color: #fff !important;
+font-size: 14px;
+text-decoration: none !important;
+}
+
+
+#commentsubmit{
+
+background-image: url(images/submit_comment.jpg)!important;
+font-size:14px !important;
+color:#fff !important;
+width:172px;
+height:29px;
+border: 0px;
+
+}
+
+ul#nav {
+display: block;
+width: 100%;
+height: 35px;
+margin: 0;
+padding: 0;
+list-style: none;
+position: absolute;
+bottom: 0;
+left: 0;
+z-index: 5;
+background: url(images/nav.png) repeat-x 0 0 !important;
+}
+
+ul#nav li.current-menu-item a.first, body.wpsc ul#nav li.wpsc a.first, body.blog ul#nav li.blog a.first {
+background-image: url(images/navon.png) !important;
+color: black !important;
+}
+
+ul#nav li {
+  background-image:url(images/navli.png) !important;
+  }
+
+#fbar {
+  background-attachment:initial;
+  background-clip:initial;
+  background-color:#000 !important;
+  background-image:url(images/fbar.png) !important;
+  background-origin:initial;
+  background-position:0 0;
+  background-repeat:repeat no-repeat;
+}
+
+#fbar .fblock {
+float: left;
+width: 50%;
+
+}
+
+#fbar .widget_nav_menu {
+width: 80%;
+font-size:11px !important;
+line-height: 28px;
+}
+#hdr .hblock.support {
+float: right;
+margin-top: 0 !important;
+}
+
+.pbpform, .secondary .pbpform {
+background: #fff url(images/hform.png) no-repeat 0 0 !important;
+color:#fff;
+}
+.pbpform input.submit {
+background-image: url(images/submit.jpg) !important;
+color:#fff !important;
+}
+
+.pbpform .tar, .secondary .pbpform .tar {
+color: #fff !important;
+text-shadow: none !important;
+}
+
+.secondary .pbpform .tar td {
+height: 92px;
+color:#fff !important;
+}
+
+#pagetop, #pagetop.sliding {
+background: url(images/slide_bg_1.png) no-repeat 0 0 !important;
+}
+
+.submit {
+background-image: url(images/contact_us.jpg) !important;
+color:#fff;
+font-size: 12px;
+width:261px;
+height:34px;
+border: 0px;
+}
