@@ -1,0 +1,93 @@
+/*
+Theme Name: RJT
+Theme URI: http://www.rjtesthetics.com/
+Description: Theme for RJT Esthetics based off ProGo Business PRO theme & ideals
+Author: Alex Chousmith
+Author URI: http://about.me/chousmith
+Template: businesspro
+Version: 1.0
+*/
+
+@import '../businesspro/style.css';
+
+@font-face {
+    font-family: 'Dd Bold';
+    src: url('fonts/dd-bold-webfont.eot');
+    src: url('fonts/dd-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/dd-bold-webfont.woff') format('woff'),
+         url('fonts/dd-bold-webfont.ttf') format('truetype'),
+         url('fonts/dd-bold-webfont.svg#ddbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* more style here */
+/* font families */
+body, input, textarea, .pingback a.url, h2, h3.title { font-family: Georgia, "Times New Roman", Times, serif }
+#slogan, #hdr .hblock, #nav, .button, .tar, h3 { font-family: Arial, Helvetica, sans-serif }
+
+#main, #main input, #main textarea { font-size: 14px; line-height: 24px }
+#main h2 { color: #202020; font-size: 30px }
+#main h3 { color: #857158; font-size: 12px; font-weight: bold; text-transform: uppercase }
+/* and then */
+body { background: #867158 }
+#bg { background: #fff; margin-top: 0; }
+
+#hdrap { background: #867154 url(images/hdr.jpg) repeat-x 50% 0 }
+#hdr { height: 144px }
+ul#nav { height: 30px; background: none }
+ul#nav li { background-image: url(images/hdrli.gif) }
+ul#nav a { font-size: 12px; padding-top: 0; line-height: 30px; height: 30px; font-size: 12px }
+ul#nav.autow a.first { padding: 0 30px }
+ul#nav li.current-menu-item a.first, body.blog ul#nav li.blog a.first, ul#nav li.hover a.first, ul#nav li a.first:hover, ul#nav.autow li.hover a.first, ul#nav.autow li a.first:hover, ul#nav.autow li.current-menu-item a.first, body.blog ul#nav.autow li.blog a.first { background: none; color: #382618; font-weight: bold; }
+
+ul#nav li.sched { background: none }
+ul#nav li.sched a { font: 16px/34px "Dd Bold", Georgia, serif }
+
+body.home #container { float: left; width: 100%; background: #fff }
+body.home #pagewrap { display: block; width: 960px; margin: 0 auto; float: none }
+#homeslides { height: 378px; }
+#hdr .hblock.support h3, #homeslides div { display: none }
+#hdr .hblock.support .inside { float: left; width: 240px; height: 28px; background: url(images/phone.png) no-repeat 0 0; text-indent: -999em }
+body.home #bg { background: #fff url(images/home.jpg) no-repeat 50% 0; }
+body.home #hdrap { height: 114px }
+body.home ul#nav { bottom: -348px; width: 931px; }
+body.home ul#nav li.contact { background: none }
+body.home ul#nav li.sched { background: none; position: absolute; right: 0; bottom: 24px }
+body.home ul#nav li.sched a { background: url(images/fx.gif) repeat 0 0; text-indent: -999em; padding: 0; width: 249px; height: 38px }
+
+#main div.page { padding: 6px 38px 6px 17px }
+
+.secondary .block h3.title { width: 275px; padding: 0 18px; height: 39px;font: 14px/39px "Dd Bold", Georgia, serif; color: #fff; text-shadow: 1px 1px 2px rgba(0,0,0,0.6); background: url(images/sidetitles.jpg) no-repeat 0 0; border: none; margin: 10px 0 0 }
+.secondary .block div.textwidget { border: 1px solid #d4d4d4; border-bottom-left-radius: 8px; border-bottom-right-radius: 8px; float: left; padding: 10px 18px; width: 273px; font-size: 14px; line-height: 20px;
+
+background: #fefefe; /* Old browsers */
+background: -moz-linear-gradient(top,  #fefefe 0%, #ffeeda 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fefefe), color-stop(100%,#ffeeda)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #fefefe 0%,#ffeeda 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #fefefe 0%,#ffeeda 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #fefefe 0%,#ffeeda 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #fefefe 0%,#ffeeda 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefefe', endColorstr='#ffeeda',GradientType=0 ); /* IE6-9 */
+
+}
+
+.secondary a { font-weight: bold }
+.secondary a.fb { font-weight: normal }
+.secondary .block.text-6 div.textwidget { border: none; background: none !important; filter: none }
+
+#frap { /*background: #867158;*/ padding-bottom: 20px }
+#fbar { border-top: none; border-bottom: none }
+.fblock, #fbar .fblock { width: 100% }
+/* handled by customizer : #ftr, #ftr a { color: #fff } */
+
+table.services { width: 100%; font: bold 12px/28px Arial, Helvetica, sans-serif; }
+table.services td { border-top: 1px solid #857158; border-bottom: 1px solid #857158 }
+table.services thead td { padding: 0 9px; color: #fff; text-transform: uppercase; background: #857158; border-top: 3px solid #fff; }
+table.services tr td:first-child { border-left: 1px solid #857158; padding-left: 9px }
+table.services tr td:last-child { border-right: 1px solid #857158 }
+
+#main form.wpcf7-form { margin-top: 16px }
+#main input.wpcf7-text, #main textarea { padding: 0 9px; font: 12px/22px Arial, Helvetica, sans-serif; box-shadow: none; border: 1px solid #ddd; width: 100%; margin: 10px 0 0 }
+
+#main input.btn, #main a.btn, #main input.wpcf7-submit { font-size: 12px; font-family: "Dd Bold", Georgia, serif; color: #fff; background: #857158; cursor: pointer; border: none; border-radius: 5px; height: 38px; line-height: 38px; display: block; width: 141px; text-align: center; padding: 0; }
